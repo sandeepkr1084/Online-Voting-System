@@ -1,0 +1,180 @@
+body.background
+{
+background-image:url(image/login.jpg);
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-size: cover;
+}
+
+div.content
+{
+    box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0,0,0,5);
+    background:transparent;
+    margin-top:80px;
+    margin-left:31%;
+    height:750px;
+    width: 400px;
+    border-radius:20px;
+    position: absolute;
+    transition:0.5s;
+
+
+}
+.content:hover
+{
+	transform: translate(20px,20px);
+	background-color: white;
+
+}
+
+
+div.menu
+{
+    margin-top: 20px; 
+    box-shadow:0 10px 20px rgba(5,5,5,5);
+    height:45px;
+    width:100%;
+    border-radius: 20px;
+
+}
+
+a.button
+{
+     text-decoration:none;
+     color:#999;
+     margin-left:127px;
+     margin-top: 40px;
+     font-size:30px;
+     
+	
+}
+
+a.button:hover
+{
+    padding:3px;
+    background-color:orange;
+    box-shadow:0 10px 10px rgba(0,0,0,5);
+    color:blue;
+    border-radius:10px;
+
+}
+div.text
+{
+     float:left;
+     width:48%;
+     margin-left:20px;
+   
+ }
+ .input
+{
+    margin-left:70px;
+    width:250px;
+    background:rgb(0,0,0,0);
+    border:none;
+    border-bottom: 1px solid black;
+    font-size:18px;
+}
+.inpu
+{
+    margin-left:70px;
+    width:250px;
+    background:transparent;
+    color:white;
+    border:none;
+    border-bottom: 1px solid black;
+    font-size:18px;
+
+}
+
+.in
+{
+    margin-left:35%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+    background-color:#888;
+    border-radius:10px;
+   
+}
+
+ p.t
+ {
+    font-size:20px;
+    color:white;
+}
+
+p.t:hover
+{
+    color:black;
+}
+
+.data_background
+{
+    background-image: url(image/g.gif);
+
+
+
+
+}
+
+
+
+*{
+      font-family: sans-serif;
+    }
+    .blink{
+      -webkit-animation:blink 1.5s linear infinite;
+      -moz-animation:blink 1.5s linear infinite;
+      animation: blink 1.5s linear infinite
+    }
+    @-webkit-keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+  }
+    @-moz-keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+  }
+    @keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+  }
+  body.data_background{
+    font-weight: 700;
+    font-size: 45px;
+    color: green;
+    text-align: center;
+  }
+
+
+
+  h1.a{
+    font-weight: 700;
+    font-size: 45px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+
+.data_progress
+{
+     background-image: url(image/progress.gif);
+     height:200px;
+     width:200px;
+     margin-left:40%;
+     margin-top: 100px;
+     background-position: center;
+     border-radius: 100px;
+
+
+
+
+}
+
