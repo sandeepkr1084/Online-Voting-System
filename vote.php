@@ -60,9 +60,9 @@ if(isset($_POST["generate_otp"]))
          $mail->SMTPSecure = "ssl";
          $mail->Port = 465;
          $mail->SMTPAuth = true;
-         $mail->Username = 'assrpvtltd@gmail.com';
-         $mail->Password = '1999Rishi';
-         $mail->setFrom('assrpvtltd@gmail.com','Online voting system');
+         $mail->Username = 'noreply.mictesting@gmail.com';
+         $mail->Password = 'qwerty@1234';
+         $mail->setFrom('noreply.mictesting@gmail.com','Online voting system');
          $mail->addAddress($email);
          $mail->isHTML(true);
          $mail->Subject = 'OTP verification';

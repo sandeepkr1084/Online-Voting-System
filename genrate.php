@@ -39,15 +39,14 @@ if(isset($_POST["send_email"]))
   	$mail->SMTPSecure = "ssl";
   	$mail->Port = 465;
     $mail->SMTPAuth = true;
-  	$mail->Username = "assrpvtltd@gmail.com";
-  	$mail->Password = "1999Rishi";
-  	$mail->setFrom('assrpvtltd@gmail.com','Online voting system');
+  	$mail->Username = "noreply.mictesting@gmail.com";
+  	$mail->Password = "qwerty@1234";
+  	$mail->setFrom('noreply.mictesting@gmail.com','Online voting system');
 
   	while($row=mysqli_fetch_assoc($result))
   	{
   		  $email=$row["email"];
   	    $mail->addAddress($email);
-  	     
   	}
 
   	$mail->isHTML(true);
@@ -59,10 +58,8 @@ if(isset($_POST["send_email"]))
   		echo"<h6 style='color:red; margin-left:70px;'>hasecode is sended now redirecting to home page</h2>";
        header("refresh:5;url=index.html");
     }
-  
   	else
   		echo "somthing went wrong!!!";
-
 }
 
  ?>
